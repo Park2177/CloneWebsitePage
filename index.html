@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=1280"> -->
+  <meta name="description" content="현대백화점그룹 통합멤버십 H.Point! 쇼핑부터 여행/문화 혜택까지 고객님의 라이프스타일을 케어합니다.">
+  <meta property="og:description" content="현대백화점그룹 통합 멤버십">
+  <meta property="og:title" content="현대백화점그룹 통합 멤버십">
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://snsn2177.dothome.co.kr/rwdHpoint/images/common/invite.png">
+  <meta property="og:url" content="https://snsn2177.dothome.co.kr/rwdHpoint">
+  <title>현대백화점그룹 통합멤버십 | H.Point</title>
+  <link rel="icon" sizes="32x32" href="images/common/favicon.png">
+  <link rel="apple-touch-icon" sizes="32x32" href="images/common/favicon.png">
+  <!-- 구글폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="css/main.css?v=<?php echo time(); ?>">
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/ui-common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+  <header id="header">
+    <div class="inner">
+    <div class="login_wrap">
+      <ul class="login">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a class="app" href="#">APP</a></li>
+        <li>
+          <div class="lang_wrap">
+            <button class="lang_btn"><span class="blind">lang</span></button>
+              <ul class="depth2">
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">中文</a></li>
+              </ul>
+            </div>
+        </li>
+        </ul>
+      <button type="button" class="menu_btn">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="blind">메뉴 열기</span>
+      </button>
+    </div>
+    <div class="header_bottom">
+      <h2 class="logo">
+      <a href="index.html">
+        <span class="blind">Hpoint</span>
+      </a>
+      </h2>
+      <nav class="gnb_wrap">
+        <ul class="gnb">
+          <li>
+            <a href="#">소개</a>
+            <ul class="depth2">
+              <li><a href="#">H.Point소개</a></li>
+              <li><a href="#">사용처안내</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">쌓기</a>
+            <ul class="depth2">
+              <li><a href="#">즐길거리</a></li>
+              <li><a href="#">전환하기</a></li>
+              <li><a href="#">충전하기</a></li>
+              <li><a href="#">영수증/쿠폰</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">쓰기</a>
+            <ul class="depth2">
+              <li><a href="#">포인트샵</a></li>
+              <li><a href="#">선물하기</a></li>
+              <li><a href="#">기부하기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">혜택</a>
+            <ul class="depth2">
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">쿠폰</a></li>
+              <li><a href="#">플러스포인트</a></li>
+              <li><a href="#">미션</a></li>
+              <li><a href="#">제휴카드안내</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">클럽</a>
+            <ul class="depth2">
+              <li><a href="#">클럽프렌즈</a></li>
+              <li><a href="#">클럽웨딩</a></li>
+              <li><a href="#">맘스클럽</a></li>
+              <li><a href="#">헤이, 마이 뷰티</a></li>
+              <li><a href="#">클럽아디다스</a></li>
+              <li><a href="#">클럽트래블</a></li>
+              <li><a href="#">클럽육학다식</a></li>
+              <li><a href="#">클럽집테리어</a></li>
+              <li><a href="#">클럽세이푸디</a></li>
+              <li><a href="#">클럽디즈니</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">H.Point Pay</a>
+            <ul class="depth2">
+              <li class="blind"><a></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">고객센터</a>
+            <ul class="depth2">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">1:1문의</a></li>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">제휴문의</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <aside class="m_gnb_area">
+        <div class="m_gnb_top">
+          <h2 class="logo">
+            <a href="index.html">
+              <span class="blind">Hpoint</span>
+            </a>
+          </h2>
+          <ul class="login">
+            <li><a href="#">로그인</a></li>
+            <li><a class="app" href="#">APP</a></li>
+            <li>
+              <div class="lang_wrap">
+                <button class="lang_btn"><span class="blind">lang</span></button>
+                  <ul class="depth2">
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中文</a></li>
+                  </ul>
+                </div>
+            </li>
+          </ul>
+        </div>
+        <div class="m_gnb_bottom">
+          <div class="txt_wrap">
+            <p class="txt"><a class="m_gnb_login" href="#">로그인</a>하고 쉽고 편한 <br>포인트혜택을 누려보세요.</p>
+          </div>
+          <div class="app_area">
+            <a href="#"><p>포인트의 모든것! H.Point APP 다운받기</p></a>			
+          </div>
+          <div class="m_gnb_wrap">
+              <ul class="m_gnb">
+                <li class="on">
+                <a href="#">소개</a>
+                <ul class="depth2">
+                  <li><a href="#">H.Point소개</a></li>
+                  <li><a href="#">사용처안내</a></li>
+                  <li><a href="#">가입혜택</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">쌓기</a>
+                  <ul class="depth2">
+                    <li><a href="#">즐길거리</a></li>
+                    <li><a href="#">전환하기</a></li>
+                    <li><a href="#">충전하기</a></li>
+                    <li><a href="#">영수증/쿠폰</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">쓰기</a>
+                  <ul class="depth2">
+                    <li><a href="#">포인트샵</a></li>
+                    <li><a href="#">선물하기</a></li>
+                    <li><a href="#">기부하기</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">혜택</a>
+                  <ul class="depth2">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">쿠폰</a></li>
+                    <li><a href="#">플러스포인트</a></li>
+                    <li><a href="#">미션</a></li>
+                    <li><a href="#">제휴카드안내</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">클럽</a>
+                  <ul class="depth2">
+                    <li><a href="#">클럽프렌즈</a></li>
+                    <li><a href="#">클럽웨딩</a></li>
+                    <li><a href="#">맘스클럽</a></li>
+                    <li><a href="#">헤이, 마이 뷰티</a></li>
+                    <li><a href="#">클럽아디다스</a></li>
+                    <li><a href="#">클럽트래블</a></li>
+                    <li><a href="#">클럽육학다식</a></li>
+                    <li><a href="#">클럽집테리어</a></li>
+                    <li><a href="#">클럽세이푸디</a></li>
+                    <li><a href="#">클럽디즈니</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">H.Point Pay</a>
+                  <ul class="depth2">
+                    <li class="blind"><a></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">고객센터</a>
+                  <ul class="depth2">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">1:1문의</a></li>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">제휴문의</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+      </aside>
+    </div>
+    </div>
+    <div class="dimm"></div>
+  </header>
+  <div id="quickMenu">
+    <div class="container">
+      <div class="box">
+        <div class="btn_quick">Quick</div>
+        <ul class="quick_list">
+          <li class="join"><a href="#">Join</a></li>
+          <li class="app pc_only"><a href="#">앱다운</a></li>
+          <li class="event"><a href="#">이벤트</a></li>
+          <li class="customer"><a href="#">고객센터</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <main id="container">
+    <section class="main_slider">
+      <h2 class="blind">메인슬라이더1</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="img_wrap">
+              </div>
+              <div class="txt_wrap">
+                <strong>현대백화점그룹의<br>
+                다양한 제휴사를 만나보세요!</strong>
+                <p>다양한 브랜드에서 적립하고 사용하는<br>
+                즐거운 일상의 H.Point!</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="swiper-button-prev arrow_btn"></div>
+        <div class="swiper-button-next arrow_btn2"></div>
+        <div class="pagination_area">
+          <div class="pagination_wrap">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination2"></div>
+            <div class="btn_wrap">
+            <button type="button" class="swiper_btn"><span class="blind">재생/정지</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main_slider2">
+      <div class="inner">
+        <div class="swiper_cover">
+         <div class="swiper">
+            <div class="main_tit">
+             <h2>지금 가장 인기 있는
+              <br class="pc_none">이벤트</h2>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/20240207155052202.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                  <p>[H.Point] 오디오북🎧포토 감상평 작성 이벤트</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/20240131101856139.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <p>[H.Point] 회원 특별 혜택 한국민속촌</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/20240205150820218.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <p>[H.Point]2024 설 명절 추가적립 혜택</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/20240130142357092.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <p>[H.Point] 가입 추천하고 친구와 함께 포인트 적립 받자!</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/20240206100126579.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <p>[H.point] 마리 앙투아네트 뮤지컬 25% 할인</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="ratio" src="images/ratio_event.gif" alt="event">
+                    <div class="event event_txt">
+                      <p>더 많은 이벤트 보러가기</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+              <div class="btn_wrap">
+                <div class="swiper-pagination"></div>
+                <div class="num">
+                  <span class="active_num">1</span> - <span class="total_num"></span>
+                </div>
+                <button type="button" class="toggle_btn">
+                 <span class="blind">일시정지</span>
+                </button>
+              </div>
+          </div>
+          <div class="swiper-button-prev swiper-button-prev-main_slider2 arrow_btn"></div>
+          <div class="swiper-button-next swiper-button-prev-main_slider2 arrow_btn2"></div>
+      </div>
+      </div>
+    </section>
+    <section class="main_slider3">
+      <div class="inner">
+        <div class="main_tit">
+          <h2>포인트 쌓기</h2>
+          <p>즐거움이 매일매일 쌓이는 포인트 플레이</p>
+        </div>
+        <div class="swiper_cover">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/img_sect_collect1.png" alt="메인슬라이더">
+                    <img class="m_event " src="images/m_img_sect_collect1.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong>출석룰렛</strong>
+                    <p>매일 돌리면 포인트와 알파벳이 쏟아져요</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/img_sect_collect2.png" alt="메인슬라이더">
+                    <img class="m_event" src="images/m_img_sect_collect2.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong>알파벳</strong>
+                    <p>조합하고 완성하는 재미</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/img_sect_collect3.png" alt="메인슬라이더">
+                    <img class="m_event" src="images/m_img_sect_collect3.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong>포인트워크</strong>
+                    <p>귀여운 강아지와 함께 일일 걷기 미션</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/img_sect_collect4.png" alt="메인슬라이더">
+                    <img class="m_event" src="images/m_img_sect_collect4.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong>오늘의 퀴즈</strong>
+                    <p>간단한 퀴즈 풀고 포인트 받자!</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img_wrap">
+                    <img class="event" src="images/img_sect_collect5.png" alt="메인슬라이더">
+                    <img class="m_event" src="images/m_img_sect_collect5.png" alt="메인슬라이더">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong>H.설문</strong>
+                    <p>간단한 설문에 혜택이 팡팡!</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+             
+          </div>
+          <div class="swiper-button-prev arrow_btn"></div>
+          <div class="swiper-button-next arrow_btn2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="main_use">
+      <div class="inner">
+        <div class="main_tit">
+          <h2>포인트 쓰기</h2>
+          <p>의미있게 사용하는 가치있는 소비생활</p>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="img_wrap">
+                  <img src="images/img_sect_use1.jpg" alt="포인트샵">
+                </div>
+                <div class="txt_wrap">
+                  <h3>포인트샵</h3>
+                  <p>H.Point로 하는 즐거운 소비생활</p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="img_wrap">
+                  <img src="images/img_sect_use2.jpg" alt="포인트샵">
+                </div>
+                <div class="txt_wrap">
+                  <h3>포인트기부</h3>
+                  <p>기부하는 당신이 세상의 영웅</p>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <div class="img_wrap">
+                  <img src="images/img_sect_use3.jpg" alt="포인트샵">
+                </div>
+                <div class="txt_wrap">
+                  <h3>포인트선물</h3>
+                  <p>친구끼리 포인트 선물 어때요?</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="btn_wrap">
+            <div class="swiper-pagination"></div>
+            <div class="num">
+              <span class="active_num">1</span> - <span class="total_num"></span>
+            </div>
+            <button type="button" class="toggle_btn">
+             <span class="blind">일시정지</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+      <div class="inner">
+        <div class="footer_wrap">
+        <div class="logo"><span class="blind">h.Point</span></div>
+        <ul class="footer_top">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">위치기반서비스 이용약관</a></li>
+          <li class="emp"><a href="#">개인정보처리방침</a></li>
+          <li class="footer_mobile_none"><a href="#">개인정보보호센터</a></li>
+        </ul>
+        <ul class="footer_sns">
+          <li><a href="#" target="_blank"><img src="images/ft_sns_youtube.png" alt="유튜브"></a></li>
+          <li><a href="#" target="_blank"><img src="images/ft_sns_kakao.png" alt="카카오플러스"></a></li>
+          <li><a href="#" target="_blank"><img src="images/ft_sns_instagram.png" alt="인스타그램"></a></li>
+        </ul>
+        <div class="footer_bottom">
+          <p>주식회사 현대백화점</p>
+          <p>서울시 강남구 테헤란로98길 12</p>
+          <p>고객센터 1800-2800</p>
+        </div>
+        <p class="copyright">ⓒ HYUNDAI DEPARTMENT STORE GROUP Co. Ltd. ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+    <div class="top_btn_wrap">
+      <button class="top_btn" type="button"></button>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
